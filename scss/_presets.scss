@@ -21,6 +21,12 @@ ul {
   padding: 0;
 }
 
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1440px;
   width: 90%;
