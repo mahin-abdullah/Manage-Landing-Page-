@@ -9,46 +9,56 @@
   <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 <body>
-  <!-- Header and Navigation -->
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">
-          <img src="dist/images/logo.svg" alt="Logo of Manage">
-        </div>
+  <!-- Wrapper, Header and Navigation -->
+  <div class="wrapper">
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="dist/images/logo.svg" alt="Logo of Manage">
+          </div>
 
-        <div class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Product</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Community</a></li>
-        </div>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <div class="nav__list">
+            <ul class="nav__list--flex">
+              <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Product</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Community</a></li>
+            </ul>
+          </div>
 
-        <div class="nav__item btn">
-          <div class="nav__btn"><a class="nav__link btn" href="#">Get Started</a></div>
-        </div>
-      </nav>
-    </div>
-  </header>
+          <div class="nav__item btn">
+            <div class="nav__btn"><a class="nav__link btn" href="#">Get Started</a></div>
+          </div>
 
-  <!-- Hero Section -->
-  <div class="hero">
-    <div class="container">
-      <div class="infographics">
-        <img src="dist/images/illustration-intro.svg" alt="infographics of Manage">
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+        </nav>
       </div>
+    </header>
 
-      <div class="introduction">
-        <h1>Bring everyone together to build better products.</h1>
-        <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
 
-        <div class="introduction btn">
-          <button><a href="#">Get Started</a></button>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="container">
+        <div class="infographics">
+          <img src="dist/images/illustration-intro.svg" alt="infographics of Manage">
+        </div>
+
+        <div class="introduction">
+          <h1>Bring everyone together to build better products.</h1>
+          <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+
+          <div class="introduction btn">
+            <button><a href="#">Get Started</a></button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> <!-- Wrapper ends -->
 
   <!-- Services Section -->
   <div class="services">
