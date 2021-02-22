@@ -1,0 +1,35 @@
+.wrapper__cta {
+  background-image: url(/dist/images/bg-tablet-pattern.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-position: bottom;
+  background-position-x: -20.5em;
+  background-position-y: 15em;
+  background-color: $primary-orange;
+}
+
+.cta {
+  padding: 5em 0 3em 0;
+
+  .cta__title {
+    text-align: center;
+  }
+
+  .cta__title h1 {
+    color: #fff;
+  }
+
+  &.btn {
+    text-align: center;
+  }
+
+  &.btn button {
+    background-color: #fff;
+    color: $primary-orange;
+    font-weight: $font-bold;
+    filter: none;
+    cursor: pointer;
+  }
+}

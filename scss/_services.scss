@@ -1,0 +1,36 @@
+.wrapper__service {
+  background-image: url(/dist/images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 15em;
+  background-position-y: -21em;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__main h6 {
+  background-color: $orange;
+  padding: 0.35em 0;
+}
+
+.services__number {
+  padding: 0.35em 1.4em;
+  margin: 0 0.5em 0 0;
+  background-color: $primary-orange;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.carousel {
+  .carousel__title {
+    text-align: center;
+    padding: 1em 0 1em 0;
+  }
+
+  &.btn {
+    text-align: center;
+    padding: 3em 0 4em 0;
+  }
+}
