@@ -1,0 +1,89 @@
+footer {
+  padding: 2.5em 0;
+  background-color: $dark-blue;
+  font-family: $font;
+
+  .search {
+    text-align: center;
+  }
+  .search__input {
+    padding: 0.9em 1.5em;
+    width: 75%;
+    border: 0;
+    border-radius: 20px;
+  }
+
+  ::placeholder {
+    color: $gray-blue;
+    font-size: 14px;
+  }
+
+  .search__btn {
+    padding: 0.9em 1.5em;
+    color: $red;
+    text-transform: uppercase;
+    font-weight: $font-bold;
+    width: 20%;
+    filter: none;
+
+    &:hover {
+      color: $primary-orange;
+      background-color: $red;
+    }
+  }
+
+  .footer__list--primary,
+  .footer__list--secondary {
+    list-style-type: none;
+    margin: 2.2em 0;
+    padding: 0;
+
+    .footer__item {
+      padding: 0.4em 0;
+    }
+  }
+
+  .footer__link {
+    color: #fff;
+
+    &:hover {
+      opacity: 75%;
+    }
+  }
+
+  .logo__section {
+    text-align: center;
+
+    .social__links {
+      color: #fff;
+
+      .fa-lg {
+        font-size: 2em;
+      }
+    }
+
+    .logo__footer {
+      margin: 2.5em 0 0 0;
+    }
+  }
+
+  .trademark {
+    text-align: center;
+
+    & h5 {
+      color: $gray-blue;
+    }
+
+    & p {
+      font-size: 13px;
+    }
+
+    & p a {
+      color: $gray-blue;
+    }
+
+    & a:hover {
+      color: $primary-orange;
+    }
+  }
+}

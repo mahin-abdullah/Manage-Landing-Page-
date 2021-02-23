@@ -5,7 +5,7 @@
   background-blend-mode: color-dodge;
   background-size: cover;
   background-position: bottom;
-  background-position-x: -20.5em;
+  background-position-x: -25.5em;
   background-position-y: 15em;
   background-color: $primary-orange;
 }
@@ -18,7 +18,7 @@
   }
 
   .cta__title h1 {
-    color: #fff;
+    color: $red;
   }
 
   &.btn {
@@ -26,7 +26,7 @@
   }
 
   &.btn button {
-    background-color: #fff;
+    background-color: $red;
     color: $primary-orange;
     font-weight: $font-bold;
     filter: none;

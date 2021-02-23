@@ -2,16 +2,22 @@
 body {
   font-family: $font;
 }
+
+.flex-jc-sa {
+  display: flex;
+  justify-content: space-around;
+}
 button {
   padding: 15px 37px;
   border-radius: 20px;
   border: 0;
   background-color: $primary-orange;
   font-family: $font;
+  cursor: pointer;
   filter: drop-shadow(1px 10px 2px $orange);
 
   & a {
-    color: #fff;
+    color: $red;
     font-size: 13px;
     letter-spacing: 0.5px;
     font-weight: $font-bold;
