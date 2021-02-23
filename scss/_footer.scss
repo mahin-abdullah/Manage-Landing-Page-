@@ -47,7 +47,7 @@ footer {
     color: #fff;
 
     &:hover {
-      opacity: 75%;
+      color: $primary-orange;
     }
   }
 
@@ -59,6 +59,10 @@ footer {
 
       .fa-lg {
         font-size: 2em;
+
+        &:hover {
+          color: $primary-orange;
+        }
       }
     }
 
