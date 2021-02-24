@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
 button {
   padding: 15px 37px;
   border-radius: 20px;
@@ -34,4 +35,10 @@ button {
 
 .nav__item .btn {
   display: none;
+}
+
+@media (max-width: 550px) {
+  .hide-for-mobile {
+    display: none;
+  }
 }

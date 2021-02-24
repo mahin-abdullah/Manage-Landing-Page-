@@ -1,17 +1,41 @@
-.wrapper__cta {
-  background-image: url(/dist/images/bg-tablet-pattern.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-blend-mode: color-dodge;
-  background-size: cover;
-  background-position: bottom;
-  background-position-x: -25.5em;
-  background-position-y: 15em;
-  background-color: $primary-orange;
-}
+// .wrapper__cta {
+//   background-image: url(/dist/images/bg-tablet-pattern.svg);
+//   background-position: bottom;
+//   background-repeat: no-repeat;
+//   background-blend-mode: color-dodge;
+//   background-size: cover;
+//   background-position: bottom;
+//   background-position-x: -25.5em;
+//   background-position-y: 15em;
+//   background-color: $primary-orange;
+// }
 
 .cta {
+  position: relative;
   padding: 5em 0 3em 0;
+  background-color: $primary-orange;
+
+  &__bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    img {
+      width: 35rem;
+      height: 35rem;
+      opacity: 0.071;
+      position: absolute;
+    }
+
+    .bg-left {
+      top: 4rem;
+      left: -19.375rem;
+    }
+  }
 
   .cta__title {
     text-align: center;
@@ -23,6 +47,7 @@
 
   &.btn {
     text-align: center;
+    background: transparent;
   }
 
   &.btn button {
