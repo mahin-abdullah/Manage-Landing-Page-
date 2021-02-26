@@ -1,9 +1,32 @@
 // Hero Section //
 
+.introduction {
+  position: relative;
+  padding: 0 0 3em 0;
+
+  &__bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    overflow: hidden;
+
+    img {
+      width: 35rem;
+      position: absolute;
+      top: 1rem;
+      left: 16rem;
+      z-index: -1;
+    }
+  }
+}
+
 .introduction h1,
 .introduction p,
 .introduction .btn {
   text-align: center;
+  width: 90%;
+  margin: 0.5em auto;
 }
 
 .introduction .btn {
