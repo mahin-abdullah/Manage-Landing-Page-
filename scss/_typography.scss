@@ -33,3 +33,13 @@ p {
   color: $gray-blue;
   line-height: 1.8;
 }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h3 {
+    font-size: 43px;
+  }
+}

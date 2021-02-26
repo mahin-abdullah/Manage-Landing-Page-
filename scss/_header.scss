@@ -1,9 +1,10 @@
-.wrapper {
-  background-image: url(/dist/images/bg-tablet-pattern.svg);
+.wrapper img {
+  position: absolute;
+  right: -4rem;
+  top: -2rem;
+  overflow: hidden;
+  z-index: -1;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 8em;
-  background-position-y: -32em;
 }
 
 header {
@@ -101,5 +102,11 @@ header {
 
   .nav__list {
     opacity: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper img {
+    top: -12rem;
   }
 }

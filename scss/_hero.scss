@@ -32,3 +32,47 @@
 .introduction .btn {
   padding: 1em 0 3em 0;
 }
+
+.infographics {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .container__hero {
+    width: 90%;
+    margin: 4.5em auto 7em auto;
+    display: flex;
+    justify-content: space-around;
+
+    .infographics {
+      display: initial;
+      order: 2;
+      width: 45%;
+      position: relative;
+      right: -5em;
+    }
+
+    .introduction {
+      width: 41%;
+
+      & h1,
+      & p,
+      .introduction.btn {
+        text-align: start;
+        margin: 0;
+      }
+      & h1 {
+        line-height: 1.25;
+      }
+      & p {
+        margin: 2em 0 0.7em 0;
+        width: 80%;
+      }
+
+      .bg-service--img {
+        display: none;
+      }
+    }
+  }
+}
