@@ -8,16 +8,6 @@ body {
   justify-content: space-around;
 }
 
-.flex-jc-c {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-ai-c {
-  display: flex;
-  align-items: center;
-}
-
 button {
   padding: 15px 37px;
   border-radius: 20px;
@@ -55,6 +45,12 @@ button {
 
 @media (min-width: 551px) {
   .hide-for-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hide-for-tablet {
     display: none;
   }
 }

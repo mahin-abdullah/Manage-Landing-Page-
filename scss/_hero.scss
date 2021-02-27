@@ -44,17 +44,16 @@
     margin: 4.5em auto 7em auto;
     display: flex;
     justify-content: space-around;
+    max-width: 1570px;
 
     .infographics {
-      display: initial;
       order: 2;
-      width: 45%;
+      width: 40%;
       position: relative;
-      right: -5em;
     }
 
     .introduction {
-      width: 41%;
+      width: 50%;
 
       & h1,
       & p,

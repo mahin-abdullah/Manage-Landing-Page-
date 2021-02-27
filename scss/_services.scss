@@ -5,6 +5,7 @@
 .services__main h6 {
   background-color: $orange;
   padding: 0.35em 0;
+  text-align: left;
 }
 
 .services__number {
@@ -15,14 +16,32 @@
   border-radius: 20px;
 }
 
-.carousel {
-  .carousel__title {
-    text-align: center;
-    padding: 1em 0 1em 0;
+.wrapper__service {
+  position: absolute;
+  z-index: -1;
+  left: -35rem;
+  bottom: -61rem;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  .flex--services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
   }
 
-  &.btn {
-    text-align: center;
-    padding: 3em 0 4em 0;
+  .services__title {
+    width: 50%;
+    text-align: left;
+
+    & p {
+      width: 70%;
+    }
+  }
+
+  .services__main {
+    width: 40%;
   }
 }
