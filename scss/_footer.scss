@@ -6,6 +6,10 @@ footer {
   .search {
     text-align: center;
   }
+
+  .search__info {
+    width: 90%;
+  }
   .search__input {
     padding: 0.9em 1.5em;
     width: 75%;
@@ -89,5 +93,39 @@ footer {
     & a:hover {
       color: $primary-orange;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container__flex {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1470px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .search,
+  .logo__section {
+    display: flex;
+    flex-direction: column;
+  }
+  .search {
+    width: 24%;
+    order: 4;
+  }
+
+  .search__info {
+    width: 100%;
+  }
+
+  .footer__list {
+    width: 42%;
+    order: 2;
+  }
+
+  .logo__section {
+    width: 20%;
+    order: 1;
   }
 }
