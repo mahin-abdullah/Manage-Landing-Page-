@@ -15,34 +15,47 @@
   <div class="wrapper">
     <img src="dist/images/bg-tablet-pattern.svg" alt="">
   </div>
-    <header>
-      <div class="container">
-        <nav>
-          <div class="logo">
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="dist/images/logo.svg" alt="Logo of Manage">
+        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <div class="nav__list">
+          <ul class="nav__list--flex">
+            <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Product</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Community</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__list--lg">
+          <div class="logo--lg">
             <img src="dist/images/logo.svg" alt="Logo of Manage">
           </div>
-
-          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-          <div class="nav__list">
-            <ul class="nav__list--flex">
-              <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+          <div class="nav__list--flex--lg">
+            <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
               <li class="nav__item"><a class="nav__link" href="#">Product</a></li>
               <li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
               <li class="nav__item"><a class="nav__link" href="#">Careers</a></li>
               <li class="nav__item"><a class="nav__link" href="#">Community</a></li>
-            </ul>
           </div>
 
-          <div class="nav__item btn">
-            <div class="nav__btn"><a class="nav__link btn" href="#">Get Started</a></div>
+          <div class="nav__btn">
+            <button><a href="#">Get Started</a></button>
           </div>
+        </div>
 
-          <label for="nav-toggle" class="nav-toggle-label">
-            <span></span>
-          </label>
-        </nav>
-      </div>
-    </header>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </nav>
+    </div>
+  </header>
 
 
     <!-- Hero Section -->
